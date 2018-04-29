@@ -47,9 +47,9 @@ fun main(args: Array<String>) {
   }
 
   if (reqInp) {
-    print("> ${prog} ")
-    val prog_input = readLine()
-    "./${prog}.kexe ${prog_input}".runCommand(File("."))
+    print("> $prog ")
+    val progInput = readLine()
+    "./$prog.kexe $progInput".runCommand(File("."))
   }
-  else "./${prog}.kexe".runCommand(File("."))
+  else "./$prog.kexe".runCommand(File("."))
 }
