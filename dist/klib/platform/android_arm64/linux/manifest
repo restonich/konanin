@@ -1,0 +1,12 @@
+#Fri Apr 27 13:15:08 MSK 2018
+unique_name=linux
+headers=byteswap.h elf.h endian.h features.h lastlog.h link.h malloc.h mntent.h nsswitch.h pathconf.h termio.h thread_db.h uchar.h util.h sys/epoll.h sys/inotify.h sys/klog.h sys/sendfile.h sys/sysconf.h sys/sysinfo.h sys/utime.h net/if_ether.h net/if_packet.h netinet/ether.h netinet/in6.h netpacket/packet.h
+depends=stdlib
+includedHeaders=usr/include/byteswap.h usr/include/elf.h usr/include/linux/auxvec.h usr/include/asm/auxvec.h usr/include/linux/elf.h usr/include/linux/elf-em.h usr/include/machine/elf_machdep.h usr/include/features.h usr/include/lastlog.h usr/include/link.h usr/include/mntent.h usr/include/nsswitch.h usr/include/termio.h usr/include/thread_db.h usr/include/util.h usr/include/sys/epoll.h usr/include/sys/inotify.h usr/include/linux/inotify.h usr/include/sys/klog.h usr/include/sys/sendfile.h usr/include/sys/sysinfo.h usr/include/sys/utime.h usr/include/net/if_packet.h usr/include/netinet/ether.h usr/include/netpacket/packet.h 52b27877b9504775fe3a32d5310fac605ebd3ff6d653ba191c970198c9b1c535
+interop=true
+linkerOpts=-ldl
+headers.android_arm32=time64.h
+headerFilter=**
+abi_version=1
+exportForwardDeclarations=cnames.structs.ps_prochandle
+package=platform.linux

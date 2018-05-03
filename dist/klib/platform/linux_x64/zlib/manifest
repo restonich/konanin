@@ -1,0 +1,11 @@
+#Fri Apr 27 13:25:35 MSK 2018
+unique_name=zlib
+compilerOpts=-D_ANSI_SOURCE -D_POSIX_C_SOURCE\=199309 -D_BSD_SOURCE -D_XOPEN_SOURCE\=700
+headers=zconf.h zlib.h
+depends=stdlib
+includedHeaders=usr/include/zconf.h usr/include/zlib.h 0b721fff697c257bb32149aa6815d9ef912af75f2ab00a6a441f2f8379da7383
+interop=true
+linkerOpts=-lz
+abi_version=1
+exportForwardDeclarations=
+package=platform.zlib

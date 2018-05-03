@@ -1,0 +1,11 @@
+#Fri Apr 27 13:10:20 MSK 2018
+unique_name=gles3
+depends=stdlib
+headers=GLES3/gl3.h GLES3/gl3ext.h GLES3/gl3platform.h
+includedHeaders=usr/include/GLES3/gl3.h usr/include/GLES3/gl3platform.h usr/include/GLES3/gl3ext.h 276e11f6a4d57a9ab7fdf40f1868a67f1873912cd7e6166360cbc20a9808ac6f
+interop=true
+linkerOpts=-lGLESv3
+headerFilter=GLES3/**
+abi_version=1
+exportForwardDeclarations=cnames.structs.__GLsync
+package=platform.gles3

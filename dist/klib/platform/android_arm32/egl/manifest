@@ -1,0 +1,11 @@
+#Fri Apr 27 13:09:19 MSK 2018
+unique_name=egl
+depends=stdlib
+headers=EGL/egl.h EGL/eglext.h EGL/eglplatform.h
+includedHeaders=usr/include/EGL/egl.h usr/include/EGL/eglplatform.h usr/include/EGL/eglext.h 03a4dd58b323c560abc6c0afca53b480f4b465f983e001431c3e7d02f35e24ce
+interop=true
+linkerOpts=-lEGL
+headerFilter=EGL/**
+abi_version=1
+exportForwardDeclarations=cnames.structs.ANativeWindow cnames.structs.egl_native_pixmap_t
+package=platform.egl

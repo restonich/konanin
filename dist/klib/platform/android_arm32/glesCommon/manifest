@@ -1,0 +1,10 @@
+#Fri Apr 27 13:09:04 MSK 2018
+unique_name=glesCommon
+headers=KHR/khrplatform.h
+depends=stdlib
+includedHeaders=usr/include/KHR/khrplatform.h 0c87d41b4bde081e9ad52aaec27753b431dae4df0fc0636cc3982a1e5a4b29da
+interop=true
+headerFilter=KHR/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.glescommon

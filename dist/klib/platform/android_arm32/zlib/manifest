@@ -1,0 +1,11 @@
+#Fri Apr 27 13:12:04 MSK 2018
+unique_name=zlib
+depends=stdlib
+headers=zconf.h zlib.h
+includedHeaders=usr/include/zconf.h usr/include/zlib.h 0b721fff697c257bb32149aa6815d9ef912af75f2ab00a6a441f2f8379da7383
+interop=true
+linkerOpts=-lz
+headerFilter=**
+abi_version=1
+exportForwardDeclarations=
+package=platform.zlib

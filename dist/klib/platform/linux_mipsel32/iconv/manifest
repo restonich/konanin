@@ -1,0 +1,9 @@
+#Fri Apr 27 13:22:03 MSK 2018
+package=platform.iconv
+interop=true
+unique_name=iconv
+includedHeaders=usr/include/iconv.h 7f9e0d32caf9ed2059eb3ef6a2452e0205d60712aba3d2b956bbf7579f5544d2
+exportForwardDeclarations=
+depends=stdlib
+headers=iconv.h
+abi_version=1

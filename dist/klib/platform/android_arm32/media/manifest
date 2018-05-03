@@ -1,0 +1,11 @@
+#Fri Apr 27 13:11:00 MSK 2018
+unique_name=media
+depends=stdlib
+headers=media/NdkMediaCodec.h media/NdkMediaCrypto.h media/NdkMediaDrm.h media/NdkMediaError.h media/NdkMediaExtractor.h media/NdkMediaFormat.h media/NdkMediaMuxer.h
+includedHeaders=usr/include/media/NdkMediaCodec.h usr/include/media/NdkMediaCrypto.h usr/include/media/NdkMediaError.h usr/include/media/NdkMediaFormat.h usr/include/media/NdkMediaDrm.h usr/include/media/NdkMediaExtractor.h usr/include/media/NdkMediaMuxer.h 57627d33a409ae0c84db9bb69d1deda08232e0747f513777aadd306a31fec7ad
+interop=true
+linkerOpts=-lmediandk
+headerFilter=media/**
+abi_version=1
+exportForwardDeclarations=cnames.structs.AMediaCrypto cnames.structs.AMediaFormat cnames.structs.AMediaCodec cnames.structs.AMediaCodecCryptoInfo cnames.structs.AMediaDrm cnames.structs.AMediaExtractor cnames.structs.AMediaMuxer
+package=platform.media

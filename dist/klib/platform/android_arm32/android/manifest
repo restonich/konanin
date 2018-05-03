@@ -1,0 +1,11 @@
+#Fri Apr 27 13:08:55 MSK 2018
+unique_name=android
+depends=stdlib
+headers=jni.h android/api-level.h android/asset_manager.h android/asset_manager_jni.h android/bitmap.h android/configuration.h android/dlext.h android/input.h android/keycodes.h android/log.h android/looper.h android/native_activity.h android/native_window.h android/native_window_jni.h android/obb.h android/rect.h android/sensor.h android/storage_manager.h android/tts.h android/window.h
+includedHeaders=usr/include/jni.h usr/include/android/asset_manager.h usr/include/android/asset_manager_jni.h usr/include/android/bitmap.h usr/include/android/configuration.h usr/include/android/dlext.h usr/include/android/input.h usr/include/android/keycodes.h usr/include/android/looper.h usr/include/android/log.h usr/include/android/native_activity.h usr/include/android/native_window.h usr/include/android/rect.h usr/include/android/native_window_jni.h usr/include/android/obb.h usr/include/android/sensor.h usr/include/android/storage_manager.h usr/include/android/tts.h usr/include/android/window.h 99622b6efd71d4be371712ae02e7347bf7abcf09f95b59ac43759d3411cd81a2
+interop=true
+linkerOpts=-landroid -llog -ljnigraphics
+headerFilter=**
+abi_version=1
+exportForwardDeclarations=cnames.structs._jfieldID cnames.structs._jmethodID cnames.structs.AAssetManager cnames.structs.AAssetDir cnames.structs.AAsset cnames.structs.AConfiguration cnames.structs.ALooper cnames.structs.AInputEvent cnames.structs.AInputQueue cnames.structs.ANativeWindow cnames.structs.AObbInfo cnames.structs.ASensorManager cnames.structs.ASensorEventQueue cnames.structs.ASensor cnames.structs.AStorageManager
+package=platform.android
