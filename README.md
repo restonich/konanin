@@ -4,6 +4,11 @@ Project aiming to integrate [Kotlin/Native compiler](https://github.com/JetBrain
 Prerequisites:
 *   OpenJDK 8 (`tools.jar` required)
 
+
+### How to run:
+Main class:
+
+    MainKt
 VM options for Run:
 
     -ea
